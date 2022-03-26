@@ -1,13 +1,30 @@
 main {
-    /* background: url('../../../public/bg-blue.jpg');
-    background-position: center;
-    background-repeat: no-repeat; */
-    /* background-color: black;
-    color: white; */
+    background-color: #000000d6;
+    color: white;
 }
 
 .parent-container {
     width: 95%;
     margin: auto;
+}
 
+.card {
+    color: black;
+    border: none;
+}
+
+
+@media screen and (max-width:765px) {
+
+    #shops {
+        flex-direction: column-reverse;
+    }
+
+    .parent-container {
+        width: 85%;
+    }
+
+    .card-img, .card-img-top {
+        height: 541px;
+    }
 }

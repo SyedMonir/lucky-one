@@ -29,8 +29,6 @@ const Carts = ({ carts, handleRemoveCarts }) => {
             </div>
           ))}
         </Card.Body>
-
-        {/* onClick={handleShow} */}
         <Button onClick={handleShow} className="mb-2">
           Choose one from me
         </Button>
@@ -46,6 +44,7 @@ const Carts = ({ carts, handleRemoveCarts }) => {
                 <Card.Title>{carts[randomGame]?.name}</Card.Title>
                 <Card.Text>USD: ${carts[randomGame]?.price}</Card.Text>
               </Card.Body>
+              <Button onClick={handleClose}>Buy now</Button>
             </Card>
           </Modal.Body>
         </Modal>

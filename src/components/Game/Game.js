@@ -12,10 +12,10 @@ const Game = ({ game, handleAddToCart }) => {
         <Card.Body>
           <Card.Title>{name}</Card.Title>
           <Card.Text>USD: ${price}</Card.Text>
-          <Button onClick={() => handleAddToCart(game)} variant="primary">
-            Add To Cart <FaCartPlus style={{ marginBottom: '5px' }} />
-          </Button>
         </Card.Body>
+        <Button onClick={() => handleAddToCart(game)} variant="primary">
+          Add To Cart <FaCartPlus style={{ marginBottom: '5px' }} />
+        </Button>
       </Card>
     </div>
   );
