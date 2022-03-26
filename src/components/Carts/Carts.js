@@ -13,6 +13,17 @@ const Carts = ({ carts, handleRemoveCarts }) => {
   const handleShow = () => {
     setShow(true);
   };
+
+  //   Delete Item From cart
+  const handleDeleteItem = (game) => {
+    const delGame = carts.find((del) => del.id === game.id);
+    // console.log(carts.indexOf(delGame));
+    const index = carts.indexOf(delGame);
+    // if (index > -1) {
+    //   carts.splice(index, 1);
+    // }
+    // console.log(carts);
+  };
   return (
     <div className="carts p-2">
       <Card>
@@ -25,7 +36,7 @@ const Carts = ({ carts, handleRemoveCarts }) => {
             >
               <img src={game.image} width={50} height={50} alt={game.name} />
               <h6 style={{ marginBottom: '0' }}>{game.name}</h6>
-              <FaRegWindowClose />
+              <FaRegWindowClose onClick={() => handleDeleteItem(game)} />
             </div>
           ))}
         </Card.Body>
