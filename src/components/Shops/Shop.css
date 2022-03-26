@@ -1,5 +1,13 @@
-#shops {
-    /* background: url('../../../public/bg-blue.jpg'); */
+main {
+    /* background: url('../../../public/bg-blue.jpg');
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    /* background-color: black;
+    color: white; */
+}
+
+.parent-container {
+    width: 95%;
+    margin: auto;
+
 }
