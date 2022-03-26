@@ -1,0 +1,62 @@
+[
+  {
+    "id": "sgt01",
+    "name": "Halo Infinite",
+    "price": 45,
+    "image": "https://i.pinimg.com/564x/4a/c2/c7/4ac2c78f019e156be1ee0b5731c68546.jpg"
+  },
+  {
+    "id": "sgt02",
+    "name": "Batman-Arkham City",
+    "price": 55,
+    "image": "https://m.media-amazon.com/images/I/71iVh126kZL._AC_SY879_.jpg"
+  },
+  {
+    "id": "sgt03",
+    "name": "Resident Evil - 2",
+    "price": 40,
+    "image": "https://m.media-amazon.com/images/I/71LQPXV6ueL._SY800_.jpg"
+  },
+  {
+    "id": "sgt04",
+    "name": "god Of War",
+    "price": 25,
+    "image": "https://i.pinimg.com/564x/53/30/6f/53306f0487c93246e1ae2976832e7e95.jpg"
+  },
+  {
+    "id": "sgt05",
+    "name": "Sekiro",
+    "price": 35,
+    "image": "https://i.pinimg.com/564x/12/d9/05/12d905fab4be23dcdc5c7c31863467cd.jpg"
+  },
+  {
+    "id": "sgt06",
+    "name": "Doom",
+    "price": 15,
+    "image": "https://i.pinimg.com/564x/5e/d4/46/5ed446a402f9eb0fb684ceb79678aa44.jpg"
+  },
+  {
+    "id": "sgt07",
+    "name": "Tomb Raider",
+    "price": 65,
+    "image": "https://i.pinimg.com/564x/2b/a5/3e/2ba53e756edd7449cf2d5359a12d2ccb.jpg"
+  },
+  {
+    "id": "sgt08",
+    "name": "Call Of Duty",
+    "price": 45,
+    "image": "https://imgc.allpostersimages.com/img/posters/call-of-duty-skull_u-L-F9DGLU0.jpg"
+  },
+  {
+    "id": "sgt09",
+    "name": "Fallout",
+    "price": 41,
+    "image": "https://i.pinimg.com/564x/ab/1b/b4/ab1bb4b0b02ffb32d05fc599e57b8c47.jpg"
+  },
+  {
+    "id": "sgt10",
+    "name": "Call Of Duty WWII",
+    "price": 46,
+    "image": "https://imgc.allpostersimages.com/img/posters/call-of-duty-wwii-key-art_u-L-F9DGPH0.jpg"
+  }
+]
