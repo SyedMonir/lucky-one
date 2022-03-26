@@ -15,9 +15,19 @@ const Shop = () => {
   // Cart
   const [carts, setCarts] = useState([]);
   const handleAddToCart = (game) => {
-    const addedGames = [...carts, game];
-    setCarts(addedGames);
-    // console.log(addedGames);
+    const checkSameId = carts.find((ga) => ga.id === game.id);
+    if (!checkSameId) {
+      const addedGames = [...carts, game];
+      if (addedGames.length > 4) {
+        alert('You reached maximum limit!');
+      } else {
+        setCarts(addedGames);
+      }
+      // console.log(addedGames.length);
+    } else {
+      alert('Already Added!');
+    }
+    // console.log(checkSameId);
   };
 
   // Remove From Cart
@@ -26,7 +36,7 @@ const Shop = () => {
   return (
     <main>
       <section className="parent-container">
-        <h3>New To The Syed Games Store</h3>
+        <h3>New Arrival To The Syed Games Store</h3>
         <section id="shops" className="row">
           <div className="col-md-9">
             <Games handleAddToCart={handleAddToCart} games={games} />
