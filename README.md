@@ -1,6 +1,6 @@
 # The Syed Game Store
 
-## [Preview]()
+## [Preview](https://syed-game-store.netlify.app/)
 
 # Getting Started with Create React App
 
